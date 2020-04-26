@@ -6,7 +6,6 @@ import { setThemeColors, createTheme } from './theme/theme';
 import Home from './components/Home';
 import StylesExample from './components/StylesExample';
 
-// function App() {
 class App extends React.Component {
 
   getColors = () => {
@@ -37,6 +36,5 @@ class App extends React.Component {
     );
   }
 }
-// }
 
 export default App;
